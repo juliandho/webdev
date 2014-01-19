@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>Digital Stratagems - Consumer and Technology Trends</title>
+		<link rel="stylesheet" type="text/css" href="landing_styles.css" />
+	       <script type="text/javascript">
+                        var _gaq = _gaq || [];
+                        _gaq.push(['_setAccount', 'UA-38031754-1']);
+                        _gaq.push(['_trackPageview']);
+                        (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+                </script>
+	     	<meta name="description" content="Insights into digital innovation and technology">
+                <meta name="keywords" content="Broadband, Networks, Technology, NBN, SDN, Digital strategy">
+	</head>
+	<body>
+		<div id="bg">
+			<img src="NOC.jpg" alt="">
+		</div>
+		<div id="title">
+             		<h2><img src="./Logo.jpg" /></h2>
+		</div>
+		<div id="intro-text">
+			<ul id="intro-list">
+				<li> Consumer and Technology Trends </li> 
+				<li> <font color="#999"> Networks, Applications, and Content </font></li>
+				<li><a href="./main.html"><font color="#ffff66"> Enter Digital Stratagems</font></a></li>
+			</ul> 
+		</div>
+
+<script type="text/javascript">
+function RedirectSmartphone(url){
+    if (url && url.length > 0 && IsSmartphone())
+    window.location = url;
+}
+function IsSmartphone(){
+    if (DetectUagent("android")) return true;
+    else if (DetectUagent("blackberry")) return true;
+    else if (DetectUagent("iphone")) return true;
+    else if (DetectUagent("opera")) return true;
+    else if (DetectUagent("palm")) return true;
+    else if (DetectUagent("windows")) return true;
+    else if (DetectUagent("generic")) return true;
+    else if (DetectUagent("ipad")) return true;
+    else if (DetectUagent("ipod")) return true;
+    return false;
+}
+function DetectUagent(name){
+    var uagent = navigator.userAgent.toLowerCase();
+    if (uagent.search(name) > -1)
+    return true;
+    else
+    return false;
+}
+RedirectSmartphone("http://digitalstratagems.com/m.main.html");
+<!--
+if (screen.width <= 699) {
+document.location = "m.main.html";
+}
+//-->
+</script>
+<noscript>
+<meta HTTP-EQUIV="REFRESH" content="0; url=http://www.digitalstratagems.com/nojs.main.html"> 
+</noscript>
+	</body>
+</html>
