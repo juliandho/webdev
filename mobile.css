@@ -1,0 +1,21 @@
+#content p,ul
+{
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	text-align: justify;
+}
+
+#content h
+{
+	font-weight: bold;
+}
+
+#close_button
+{
+	display: none;
+} 
+
+.hires
+{
+	display:none;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Digital Strategems</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+<!--	<link rel="stylesheet" href="../_js/jquery.mobile-1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="../_js/jquery-1.7.2.min.js"></script>
+	<script src="../_js/jquery.mobile-1.2.0/jquery.mobile-1.2.0.min.js"></script>  --!>
+	<link rel="stylesheet" href="mobile.css" />
+     	<meta name="description" content="Insights into digital innovation and technology">
+        <meta name="keywords" content="Broadband, Networks, Technology, NBN, SDN, Digital strategy">
+</head> 
+<body> 
+
+<div data-role="page">
+	<div data-role="header" data-id="persistent">
+		<h1>Digital Stratagems</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<div data-role="collapsible" data-collapsed="false">
+		<h3>Areas of Strategy</h3>		
+			<ul data-role="listview" data-inset="false" >
+				<li><a href="nbn/main.html">Australian NBN</a></li>
+				<li><a href="openaccess/main.html">Ultra-Broadband Networks</a></li>
+				<li><a href="wifi/main.html">Commercial WiFi Services</a></li>
+				<li><a href="sdn/main.html">Software Defined Networks</a></li>
+			</ul>
+		</div>
+		<ul data-role="listview" data-inset="true">
+			<li><a href="aboutme/main.html">About Digital Stratagems</a></li>
+			<li><a rel="external" href="http://www.digitalstratagems.com/main.html">Go to desktop website</a></li>
+		</ul>
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<script>
+$( document ).bind( "pageload", function( event, data ){
+
+	// Let the framework know we're going to handle the load.
+
+//	event.preventDefault();
+
+	// ... load the document then insert it into the DOM ...
+	// at some point, if the load fails, either in this
+	// callback, or through some other async means, call
+	// reject like this:
+
+//	data.deferred.reject( data.absUrl, data.options );
+console.debug("hello");
+ $('#close_button').remove();
+ $("img.hires").remove();
+});
+</script>
+
+</body>
+</html>
+

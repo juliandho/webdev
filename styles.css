@@ -1,0 +1,331 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+#title
+{
+	background: #1d1d1d;
+	margin: 0%;
+	padding: 0%;
+	background-origin: border-box;
+	background-size: cover;
+	position: relative;
+	max-height: 8%;
+}
+
+h2 	
+{ 
+	color: #999;
+	margin: 0%;
+	margin-left:1%;
+	height: 100%;
+	width: 100%;
+	padding: 0%;
+}
+
+h2 span
+{
+	display: none;
+}
+
+p	
+{ 
+	color: #ffff66; 
+	margin: 0%;
+	padding: 0%;
+	font-size: .75em;
+	padding-left:2%;	
+}
+
+#bg {
+	position:fixed; 
+	top:-50%; 
+	left:-50%; 
+	width:200%; 
+	height:200%;
+}
+#bg img {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	margin:auto; 
+	min-width:50%;
+	min-height:50%;
+}
+
+#full-page
+{
+	min-height: 100%;
+	top: 65%;
+}
+
+#middle-page
+{
+//	background-image: url(DataCenter-background.jpg);
+//	background-repeat: no-repeat;
+//	background-position: top center;	
+//	background-origin: border-box;
+//	background-size: cover;
+//	min-height: 520px;
+	margin: 0%;
+	padding: 0%;
+	display: block;
+	float: top;
+	border: 0%;
+	background-size: cover;
+	position: absolute;
+	top: 25%;
+}
+
+#footer
+{
+	background: #1d1d1d;
+        margin: 0px;
+        padding: 0px;
+        min-height: 30px;
+        display: block;
+        border: 0px;
+        background-size: cover;
+        position: relative;
+        top: 100%;
+	color: white;
+	font-size: .75em;
+}
+
+#navigation-block {
+	position: absolute;
+	top: 20%;
+	left:0%;
+	margin: 0%;
+	padding: 0%;	
+}
+
+#hide {
+	position:absolute;
+	top:30px;
+	left:-190px;
+}
+
+ul#sliding-navigation
+{
+	list-style: none;
+	font-size: .75em;
+	margin: 0%;
+	padding: 0%;
+}
+
+ul#sliding-navigation li.sliding-element h3,
+ul#sliding-navigation li.sliding-element a
+{
+	display: block;
+	width: 75%;
+	padding: 3% 3%;
+	margin: 0%;
+	margin-bottom: 8%;
+}
+
+ul#sliding-navigation li.sliding-element h3
+{
+	color: #fff;
+	background:#333 url(heading_bg.jpg) repeat-y;
+	font-weight: normal;
+}
+
+ul#sliding-navigation li.sliding-element a
+{
+	color: #999;
+	background:#222 url(tab_bg.jpg) repeat-y;
+	border: 0.8% solid #1a1a1a;
+	text-decoration: none;
+}
+
+ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
+ul#sliding-navigation li.selected a.selected { color: #fff; }
+ul#sliding-navigation li.sliding-element a#aboutme { color: white; font-size: 1.17em; }
+ul#sliding-navigation li.sliding-element a#aboutme:hover { color: #ffff66; font-size: 1.17em; }
+
+/* New in version 1.7+ */ 
+ /* images with caption */ 
+ #slider img { 
+  width: 100%; 
+  height: 100%; 
+ } 
+
+ /* position the panels so the captions appear correctly */ 
+ #slider .panel { position: relative; } 
+ /* captions */ 
+ #slider .caption-top, #slider .caption-right, 
+ #slider .caption-bottom, #slider .caption-left { 
+  background: #000; 
+  font-size: .8em;
+  color: #fff; 
+  padding: 3%; 
+  margin: 0; 
+  position: absolute; 
+  opacity: .8; 
+  filter: alpha(opacity=80); 
+ } 
+ /* Top caption - padding is included in the width (480px here, 500px in the script), same for height */ 
+ #slider .caption-top { 
+  left: 0; 
+  top: 0; 
+  width: 60%; 
+  height: 10%; 
+ } 
+ /* Right caption - padding is included in the width (130px here, 150px in the script), same for height */ 
+ #slider .caption-right { 
+  right: 0; 
+  bottom: 0; 
+  width: 10%; 
+  height: 60%; 
+ } 
+ /* Bottom caption - padding is included in the width (480px here, 500px in the script), same for height */ 
+ #slider .caption-bottom { 
+  left: 0; 
+  bottom: 0; 
+  width: 60%; 
+  height: 10%; 
+ } 
+ /* Left caption - padding is included in the width (130px here, 150px in the script), same for height */ 
+ #slider .caption-left { 
+  left: 0; 
+  bottom: 0; 
+  width: 10%; 
+  height: 60%; 
+ } 
+
+.anythingSlider
+{
+	position: absolute;
+	top: 17%;
+	left: 25%;
+	height: 70%;
+	width: 45%;
+	background-color: white;
+	border: 4px solid #b8baba;
+	padding: 0.8%;
+} 
+ .slidePanel a {
+        text-decoration: none;
+        padding: 200px;
+        display: inline-block;
+//        background-color: white;
+        border: solid red 10px;
+}
+.slidePanel p {
+        margin-right: 60px;
+        color: black !important;        
+}
+
+div.anythingSlider .anythingWindow {
+        /* remove borders above and below slider */
+        border: none;   
+}
+
+div.anythingSlider .anythingWindow {
+        /* remove borders above and below slider */
+        border: none;   
+}
+
+#content
+{
+	position:absolute;
+	top: 10%;
+	left: 20%;
+	max-width: 60%;
+	max-height: 90%;
+	background-color: white;
+	border: 4px solid #b8baba;
+	padding: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	overflow: scroll;
+}
+
+#content b
+{
+	text-align: justify;
+	font-size: 1em;
+	color: #000000;
+}
+
+#content p
+{
+	text-align: justify;
+	font-size: .75em;
+	color: #000000;
+	margin-top: 2%;
+	padding-left: 0.5%;
+	margin-right: 1%;
+}
+
+#content ul
+{
+	margin-left:: 0px;
+	padding-left: 30px;
+	padding-start: 0px;
+	padding-end: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#content li
+{
+	text-align: justify;
+	font-size: .75em;
+	color: #000000;
+}
+
+#content h
+{
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 0.1%;
+}
+#content img
+{
+	padding: 1%;
+	padding-top: 0px;
+}
+
+img.align-right {
+	float: right;
+	margin-left: 1%;
+}
+
+img.align-left {
+	float: left;
+	margin-right: 1%;
+}
+
+
+img.medium {
+	width: 5%;
+	height: 5%; 
+}
+
+#aboutme {
+	width: 60%;
+	height: 50%; 
+}
+
+#close_button
+{
+	position: absolute;
+	top: 0%;
+	left: 97%;
+} 
+
+.lowres
+{
+	display: none;
+}
